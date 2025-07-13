@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "debug": "node --inspect-brk=9229 src/index.js",
+    "debug:dev": "nodemon --inspect=9229 src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-mock": "^29.5.0",
+    "mongodb-memory-server": "^10.1.4",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.3"
+  }
+}

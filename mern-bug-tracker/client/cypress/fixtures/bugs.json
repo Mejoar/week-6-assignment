@@ -1,0 +1,76 @@
+[
+  {
+    "_id": "64a1b2c3d4e5f6789012345a",
+    "title": "Login button not responding",
+    "description": "When clicking the login button, nothing happens and the user cannot log in",
+    "severity": "high",
+    "status": "open",
+    "priority": "urgent",
+    "reporter": "John Doe",
+    "assignee": "Jane Smith",
+    "tags": ["frontend", "authentication", "critical"],
+    "stepsToReproduce": [
+      "Navigate to login page",
+      "Enter valid credentials",
+      "Click login button",
+      "Observe no response"
+    ],
+    "environment": {
+      "browser": "Chrome",
+      "os": "Windows 10",
+      "version": "95.0.4638.69"
+    },
+    "dueDate": "2024-01-15T00:00:00.000Z",
+    "createdAt": "2023-12-01T10:30:00.000Z",
+    "updatedAt": "2023-12-01T10:30:00.000Z"
+  },
+  {
+    "_id": "64a1b2c3d4e5f6789012345b",
+    "title": "Data validation error on form submission",
+    "description": "Form submits with invalid data and shows incorrect error messages",
+    "severity": "medium",
+    "status": "in-progress",
+    "priority": "medium",
+    "reporter": "Alice Johnson",
+    "assignee": "Bob Wilson",
+    "tags": ["backend", "validation", "forms"],
+    "stepsToReproduce": [
+      "Fill out form with invalid data",
+      "Submit form",
+      "Check error messages"
+    ],
+    "environment": {
+      "browser": "Firefox",
+      "os": "macOS",
+      "version": "94.0.2"
+    },
+    "dueDate": "2024-01-20T00:00:00.000Z",
+    "createdAt": "2023-12-02T14:15:00.000Z",
+    "updatedAt": "2023-12-02T14:15:00.000Z"
+  },
+  {
+    "_id": "64a1b2c3d4e5f6789012345c",
+    "title": "Page loading performance issue",
+    "description": "The dashboard page takes too long to load with large datasets",
+    "severity": "low",
+    "status": "resolved",
+    "priority": "low",
+    "reporter": "Mike Davis",
+    "assignee": "Sarah Connor",
+    "tags": ["performance", "optimization", "dashboard"],
+    "stepsToReproduce": [
+      "Login to application",
+      "Navigate to dashboard",
+      "Wait for page to load",
+      "Measure loading time"
+    ],
+    "environment": {
+      "browser": "Safari",
+      "os": "macOS",
+      "version": "15.1"
+    },
+    "dueDate": "2024-01-10T00:00:00.000Z",
+    "createdAt": "2023-11-25T09:00:00.000Z",
+    "updatedAt": "2023-12-01T16:45:00.000Z"
+  }
+]
