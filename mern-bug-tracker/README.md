@@ -196,6 +196,9 @@ This project is licensed under the MIT License.
 
 ## Support
 
+SCREEENSHOTS:
+https://prnt.sc/yuiDIEhujqpP
+
 If you encounter any issues or have questions, please open an issue on GitHub.
 
 ---
